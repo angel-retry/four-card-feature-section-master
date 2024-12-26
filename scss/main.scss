@@ -15,6 +15,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 76px;
+
+    background: $very-light-gray;
 }
 
 header {
@@ -154,6 +156,10 @@ main {
     body {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .primary-heading p {
+        margin-bottom: -3px;
     }
 
     main {
